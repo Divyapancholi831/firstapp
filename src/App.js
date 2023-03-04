@@ -1,6 +1,7 @@
 import './App.css';
 import { Counter } from './Counter';
 import RegisterDemo from './RegisterDemo';
+import JsonAlbum from './JsonAlbum';
 // import { Login } from './Login';
 // import Test from "./Test"
 import { Registration } from './Registration';
@@ -17,6 +18,7 @@ function App() {
       {/* <Counter/> */}
       {/* <RegisterDemo/> */}
       <Tablejson/>
+        {/* <JsonAlbum/> */}
     </div>
   );
 }
