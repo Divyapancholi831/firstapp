@@ -6,6 +6,7 @@ import JsonAlbum from './JsonAlbum';
 // import Test from "./Test"
 import { Registration } from './Registration';
 import { Tablejson } from './Tablejson';
+import JsonComments from './JsonComments';
 function App() {
   // let name = "Divya";
   // let lname ="Pancholi";
@@ -17,8 +18,9 @@ function App() {
       {/* <Registration/> */}
       {/* <Counter/> */}
       {/* <RegisterDemo/> */}
-      <Tablejson/>
-        {/* <JsonAlbum/> */}
+      {/* <Tablejson/> */}
+      {/* <JsonAlbum/> */}
+      <JsonComments/>
     </div>
   );
 }
