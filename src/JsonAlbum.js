@@ -24,7 +24,7 @@ const JsonAlbum = () => {
                 <tbody>
                     {album.map((obj)=> 
                     <tr>
-                    <td>{obj.id}</td>
+                    <td>{obj.userId}</td>
                     <td>{obj.title}</td>
                     </tr>
                     )}  
