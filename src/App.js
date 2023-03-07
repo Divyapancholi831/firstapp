@@ -10,6 +10,9 @@ import JsonComments from './JsonComments';
 import { Jsonpost } from './Jsonpost';
 import { Jsonphotos } from './Jsonphotos';
 import { Jsonusers } from './Jsonusers';
+import { SearchParam } from './SearchParam';
+import Pet from './Pet';
+import { UseBreedList } from './useBreedList';
 function App() {
   // let name = "Divya";
   // let lname ="Pancholi";
@@ -26,7 +29,10 @@ function App() {
       {/* <JsonComments/> */}
       {/* <Jsonpost/> */}
       {/* <Jsonphotos/> */}
-      <Jsonusers/>
+      {/* <Jsonusers/> */}
+      {/* <SearchParam/> */}
+      {/* <useBreedList/> */}
+      {/*<Pet name="pluto" animal="dog" breed="labrador"/> */}
     </div>
   );
 }

@@ -28,7 +28,7 @@ export const Jsonphotos = () => {
                     <tr>
                         <td>{obj.albumId}</td>
                         <td>{obj.title}</td>
-                        <td><img url={obj.url}/></td>
+                        <td><img src={obj.url}/></td>
                         <td>{obj.thumbnailUrl}</td>
                     </tr>
                 )}    
