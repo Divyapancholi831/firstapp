@@ -2,7 +2,7 @@ import {useState,useEffect} from "react";
 export const Jsonpost = () => {
     let [post,setPost] = useState([]);
     async function requestPost(){
-        const res = await fetch(`https://jsonplaceholder.typicode.com/posts?userId=1&id=2`);
+        const res = await fetch(`https://jsonplaceholder.typicode.com/posts`);
         const json = await res.json();
         setPost(json);
         console.log("json",json);

@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 export const Jsonphotos = () => {
     let [photos,setPhotos] = useState([]);
@@ -28,7 +29,7 @@ export const Jsonphotos = () => {
                     <tr>
                         <td>{obj.albumId}</td>
                         <td>{obj.title}</td>
-                        <td><img src={obj.url}/></td>
+                       <Link to={`/details/${obj.id}`}> <td><img src={obj.url} width="50" height="50"/></td></Link>
                         <td>{obj.thumbnailUrl}</td>
                     </tr>
                 )}    
