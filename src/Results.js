@@ -2,9 +2,10 @@ import React from "react";
 import Pet from "./Pet";
 export const Results = (props) => {
     const pets = props.pets;
+    console.log(pets);
     return(
         <div>
-            {!pets.lengh ? (
+            {!pets.length ? (
                 <h1>No pets found...</h1>
             ): (
                 pets.map((pet) => (
